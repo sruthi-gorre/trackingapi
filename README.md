@@ -17,7 +17,7 @@ It ensures high performance, uniqueness, and is scalable for concurrent access.
 ## Tech Stack
 
 - Java 17
-- Spring Boot 3.x
+- Spring Boot 3.5.4
 - Spring Web, JPA, MySQL
 - Maven
 - Lombok (optional)
@@ -37,7 +37,7 @@ CREATE DATABASE trackingdb;
 
 Application Property file:
 spring.datasource.url=jdbc:mysql://localhost:3306/trackingdb
-spring.datasource.username=root
+spring.datasource.username=your_user_name
 spring.datasource.password=your_mysql_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
